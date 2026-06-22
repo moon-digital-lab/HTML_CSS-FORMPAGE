@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf:)
+}
+
+body{
+    font-family: Roboto;
+}
+
+.wrapper-main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+textarea, 
+input {
+    border: 1px solid #ccc;
+    
+}
+
+textarea:focus, 
+input[type="text"]:focus {
+    outline: 1px solid blue;
+}
+
+textarea{
+    width: 100px;
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="radio"] {
+    appearance: radio;
+}
+
+input[type="checkbox"] {
+    appearance: checkbox;
+}
